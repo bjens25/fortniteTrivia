@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C4E6BB62097857400F82959 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E6BB52097857400F82959 /* AppDelegate.swift */; };
+		8C4E6BB82097857400F82959 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E6BB72097857400F82959 /* ViewController.swift */; };
+		8C4E6BBB2097857400F82959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4E6BB92097857400F82959 /* Main.storyboard */; };
+		8C4E6BBD2097857400F82959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C4E6BBC2097857400F82959 /* Assets.xcassets */; };
+		8C4E6BC02097857400F82959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4E6BBE2097857400F82959 /* LaunchScreen.storyboard */; };
+		8C4E6BCB2097857400F82959 /* fortniteTriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E6BCA2097857400F82959 /* fortniteTriviaTests.swift */; };
+		8C4E6BD62097857400F82959 /* fortniteTriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E6BD52097857400F82959 /* fortniteTriviaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C4E6BC72097857400F82959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C4E6BAA2097857400F82959 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C4E6BB12097857400F82959;
+			remoteInfo = fortniteTrivia;
+		};
+		8C4E6BD22097857400F82959 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C4E6BAA2097857400F82959 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C4E6BB12097857400F82959;
+			remoteInfo = fortniteTrivia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C4E6BB22097857400F82959 /* fortniteTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fortniteTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4E6BB52097857400F82959 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C4E6BB72097857400F82959 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C4E6BBA2097857400F82959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C4E6BBC2097857400F82959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C4E6BBF2097857400F82959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C4E6BC12097857400F82959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C4E6BC62097857400F82959 /* fortniteTriviaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fortniteTriviaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4E6BCA2097857400F82959 /* fortniteTriviaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fortniteTriviaTests.swift; sourceTree = "<group>"; };
+		8C4E6BCC2097857400F82959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C4E6BD12097857400F82959 /* fortniteTriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fortniteTriviaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4E6BD52097857400F82959 /* fortniteTriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fortniteTriviaUITests.swift; sourceTree = "<group>"; };
+		8C4E6BD72097857400F82959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C4E6BAF2097857400F82959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4E6BC32097857400F82959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4E6BCE2097857400F82959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C4E6BA92097857400F82959 = {
+			isa = PBXGroup;
+			children = (
+				8C4E6BB42097857400F82959 /* fortniteTrivia */,
+				8C4E6BC92097857400F82959 /* fortniteTriviaTests */,
+				8C4E6BD42097857400F82959 /* fortniteTriviaUITests */,
+				8C4E6BB32097857400F82959 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C4E6BB32097857400F82959 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C4E6BB22097857400F82959 /* fortniteTrivia.app */,
+				8C4E6BC62097857400F82959 /* fortniteTriviaTests.xctest */,
+				8C4E6BD12097857400F82959 /* fortniteTriviaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C4E6BB42097857400F82959 /* fortniteTrivia */ = {
+			isa = PBXGroup;
+			children = (
+				8C4E6BB52097857400F82959 /* AppDelegate.swift */,
+				8C4E6BB72097857400F82959 /* ViewController.swift */,
+				8C4E6BB92097857400F82959 /* Main.storyboard */,
+				8C4E6BBC2097857400F82959 /* Assets.xcassets */,
+				8C4E6BBE2097857400F82959 /* LaunchScreen.storyboard */,
+				8C4E6BC12097857400F82959 /* Info.plist */,
+			);
+			path = fortniteTrivia;
+			sourceTree = "<group>";
+		};
+		8C4E6BC92097857400F82959 /* fortniteTriviaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C4E6BCA2097857400F82959 /* fortniteTriviaTests.swift */,
+				8C4E6BCC2097857400F82959 /* Info.plist */,
+			);
+			path = fortniteTriviaTests;
+			sourceTree = "<group>";
+		};
+		8C4E6BD42097857400F82959 /* fortniteTriviaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C4E6BD52097857400F82959 /* fortniteTriviaUITests.swift */,
+				8C4E6BD72097857400F82959 /* Info.plist */,
+			);
+			path = fortniteTriviaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C4E6BB12097857400F82959 /* fortniteTrivia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4E6BDA2097857400F82959 /* Build configuration list for PBXNativeTarget "fortniteTrivia" */;
+			buildPhases = (
+				8C4E6BAE2097857400F82959 /* Sources */,
+				8C4E6BAF2097857400F82959 /* Frameworks */,
+				8C4E6BB02097857400F82959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fortniteTrivia;
+			productName = fortniteTrivia;
+			productReference = 8C4E6BB22097857400F82959 /* fortniteTrivia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C4E6BC52097857400F82959 /* fortniteTriviaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4E6BDD2097857400F82959 /* Build configuration list for PBXNativeTarget "fortniteTriviaTests" */;
+			buildPhases = (
+				8C4E6BC22097857400F82959 /* Sources */,
+				8C4E6BC32097857400F82959 /* Frameworks */,
+				8C4E6BC42097857400F82959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C4E6BC82097857400F82959 /* PBXTargetDependency */,
+			);
+			name = fortniteTriviaTests;
+			productName = fortniteTriviaTests;
+			productReference = 8C4E6BC62097857400F82959 /* fortniteTriviaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C4E6BD02097857400F82959 /* fortniteTriviaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4E6BE02097857400F82959 /* Build configuration list for PBXNativeTarget "fortniteTriviaUITests" */;
+			buildPhases = (
+				8C4E6BCD2097857400F82959 /* Sources */,
+				8C4E6BCE2097857400F82959 /* Frameworks */,
+				8C4E6BCF2097857400F82959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C4E6BD32097857400F82959 /* PBXTargetDependency */,
+			);
+			name = fortniteTriviaUITests;
+			productName = fortniteTriviaUITests;
+			productReference = 8C4E6BD12097857400F82959 /* fortniteTriviaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C4E6BAA2097857400F82959 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ios5;
+				TargetAttributes = {
+					8C4E6BB12097857400F82959 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8C4E6BC52097857400F82959 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8C4E6BB12097857400F82959;
+					};
+					8C4E6BD02097857400F82959 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8C4E6BB12097857400F82959;
+					};
+				};
+			};
+			buildConfigurationList = 8C4E6BAD2097857400F82959 /* Build configuration list for PBXProject "fortniteTrivia" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C4E6BA92097857400F82959;
+			productRefGroup = 8C4E6BB32097857400F82959 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C4E6BB12097857400F82959 /* fortniteTrivia */,
+				8C4E6BC52097857400F82959 /* fortniteTriviaTests */,
+				8C4E6BD02097857400F82959 /* fortniteTriviaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C4E6BB02097857400F82959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4E6BC02097857400F82959 /* LaunchScreen.storyboard in Resources */,
+				8C4E6BBD2097857400F82959 /* Assets.xcassets in Resources */,
+				8C4E6BBB2097857400F82959 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4E6BC42097857400F82959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4E6BCF2097857400F82959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C4E6BAE2097857400F82959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4E6BB82097857400F82959 /* ViewController.swift in Sources */,
+				8C4E6BB62097857400F82959 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4E6BC22097857400F82959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4E6BCB2097857400F82959 /* fortniteTriviaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C4E6BCD2097857400F82959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4E6BD62097857400F82959 /* fortniteTriviaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C4E6BC82097857400F82959 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C4E6BB12097857400F82959 /* fortniteTrivia */;
+			targetProxy = 8C4E6BC72097857400F82959 /* PBXContainerItemProxy */;
+		};
+		8C4E6BD32097857400F82959 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C4E6BB12097857400F82959 /* fortniteTrivia */;
+			targetProxy = 8C4E6BD22097857400F82959 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C4E6BB92097857400F82959 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C4E6BBA2097857400F82959 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C4E6BBE2097857400F82959 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C4E6BBF2097857400F82959 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C4E6BD82097857400F82959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C4E6BD92097857400F82959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C4E6BDB2097857400F82959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N52TSU4URE;
+				INFOPLIST_FILE = fortniteTrivia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phs.fortniteTrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C4E6BDC2097857400F82959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N52TSU4URE;
+				INFOPLIST_FILE = fortniteTrivia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phs.fortniteTrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C4E6BDE2097857400F82959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N52TSU4URE;
+				INFOPLIST_FILE = fortniteTriviaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phs.fortniteTriviaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fortniteTrivia.app/fortniteTrivia";
+			};
+			name = Debug;
+		};
+		8C4E6BDF2097857400F82959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N52TSU4URE;
+				INFOPLIST_FILE = fortniteTriviaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phs.fortniteTriviaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fortniteTrivia.app/fortniteTrivia";
+			};
+			name = Release;
+		};
+		8C4E6BE12097857400F82959 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N52TSU4URE;
+				INFOPLIST_FILE = fortniteTriviaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phs.fortniteTriviaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fortniteTrivia;
+			};
+			name = Debug;
+		};
+		8C4E6BE22097857400F82959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N52TSU4URE;
+				INFOPLIST_FILE = fortniteTriviaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = phs.fortniteTriviaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fortniteTrivia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C4E6BAD2097857400F82959 /* Build configuration list for PBXProject "fortniteTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4E6BD82097857400F82959 /* Debug */,
+				8C4E6BD92097857400F82959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C4E6BDA2097857400F82959 /* Build configuration list for PBXNativeTarget "fortniteTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4E6BDB2097857400F82959 /* Debug */,
+				8C4E6BDC2097857400F82959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C4E6BDD2097857400F82959 /* Build configuration list for PBXNativeTarget "fortniteTriviaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4E6BDE2097857400F82959 /* Debug */,
+				8C4E6BDF2097857400F82959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C4E6BE02097857400F82959 /* Build configuration list for PBXNativeTarget "fortniteTriviaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4E6BE12097857400F82959 /* Debug */,
+				8C4E6BE22097857400F82959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C4E6BAA2097857400F82959 /* Project object */;
+}
