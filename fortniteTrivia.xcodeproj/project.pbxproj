@@ -14,6 +14,7 @@
 		8C4E6BC02097857400F82959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4E6BBE2097857400F82959 /* LaunchScreen.storyboard */; };
 		8C4E6BCB2097857400F82959 /* fortniteTriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E6BCA2097857400F82959 /* fortniteTriviaTests.swift */; };
 		8C4E6BD62097857400F82959 /* fortniteTriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E6BD52097857400F82959 /* fortniteTriviaUITests.swift */; };
+		8CA4DB27209A28720078D36E /* questionAndAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA4DB26209A28720078D36E /* questionAndAnswer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8C4E6BD12097857400F82959 /* fortniteTriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fortniteTriviaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4E6BD52097857400F82959 /* fortniteTriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fortniteTriviaUITests.swift; sourceTree = "<group>"; };
 		8C4E6BD72097857400F82959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CA4DB26209A28720078D36E /* questionAndAnswer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionAndAnswer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				8C4E6BB52097857400F82959 /* AppDelegate.swift */,
 				8C4E6BB72097857400F82959 /* ViewController.swift */,
+				8CA4DB26209A28720078D36E /* questionAndAnswer.swift */,
 				8C4E6BB92097857400F82959 /* Main.storyboard */,
 				8C4E6BBC2097857400F82959 /* Assets.xcassets */,
 				8C4E6BBE2097857400F82959 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CA4DB27209A28720078D36E /* questionAndAnswer.swift in Sources */,
 				8C4E6BB82097857400F82959 /* ViewController.swift in Sources */,
 				8C4E6BB62097857400F82959 /* AppDelegate.swift in Sources */,
 			);
