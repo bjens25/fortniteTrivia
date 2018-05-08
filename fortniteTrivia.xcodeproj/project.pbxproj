@@ -15,9 +15,13 @@
 		8C4E6BC02097857400F82959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C4E6BBE2097857400F82959 /* LaunchScreen.storyboard */; };
 		8C4E6BCB2097857400F82959 /* fortniteTriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E6BCA2097857400F82959 /* fortniteTriviaTests.swift */; };
 		8C4E6BD62097857400F82959 /* fortniteTriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E6BD52097857400F82959 /* fortniteTriviaUITests.swift */; };
+		8C7B7DED209CCDE0008458B9 /* GameBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C7B7DEC209CCDE0008458B9 /* GameBoardViewController.swift */; };
 		8CB67FE5209B7740004606AF /* PlayerNameViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB67FE4209B7740004606AF /* PlayerNameViewController1.swift */; };
 		8CB67FE7209B77E9004606AF /* DifficultyViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB67FE6209B77E9004606AF /* DifficultyViewController2.swift */; };
 		8CB67FE9209B77F8004606AF /* PlayerNamesViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB67FE8209B77F8004606AF /* PlayerNamesViewController2.swift */; };
+		8CD5FEA020A2107D00D60F00 /* FirstQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD5FE9F20A2107D00D60F00 /* FirstQuestionViewController.swift */; };
+		8CD5FEA220A211B900D60F00 /* SecondQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD5FEA120A211B900D60F00 /* SecondQuestionViewController.swift */; };
+		8CD5FEA420A211D800D60F00 /* ThirdQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD5FEA320A211D800D60F00 /* ThirdQuestionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +56,13 @@
 		8C4E6BD12097857400F82959 /* fortniteTriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fortniteTriviaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4E6BD52097857400F82959 /* fortniteTriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fortniteTriviaUITests.swift; sourceTree = "<group>"; };
 		8C4E6BD72097857400F82959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C7B7DEC209CCDE0008458B9 /* GameBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardViewController.swift; sourceTree = "<group>"; };
 		8CB67FE4209B7740004606AF /* PlayerNameViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerNameViewController1.swift; sourceTree = "<group>"; };
 		8CB67FE6209B77E9004606AF /* DifficultyViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyViewController2.swift; sourceTree = "<group>"; };
 		8CB67FE8209B77F8004606AF /* PlayerNamesViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerNamesViewController2.swift; sourceTree = "<group>"; };
+		8CD5FE9F20A2107D00D60F00 /* FirstQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstQuestionViewController.swift; sourceTree = "<group>"; };
+		8CD5FEA120A211B900D60F00 /* SecondQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondQuestionViewController.swift; sourceTree = "<group>"; };
+		8CD5FEA320A211D800D60F00 /* ThirdQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdQuestionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,10 @@
 				8C4E6BB52097857400F82959 /* AppDelegate.swift */,
 				8C4E6BB72097857400F82959 /* ViewController.swift */,
 				8C4E6BB92097857400F82959 /* Main.storyboard */,
+				8CD5FEA320A211D800D60F00 /* ThirdQuestionViewController.swift */,
+				8CD5FEA120A211B900D60F00 /* SecondQuestionViewController.swift */,
+				8CD5FE9F20A2107D00D60F00 /* FirstQuestionViewController.swift */,
+				8C7B7DEC209CCDE0008458B9 /* GameBoardViewController.swift */,
 				8CB67FE8209B77F8004606AF /* PlayerNamesViewController2.swift */,
 				8CB67FE6209B77E9004606AF /* DifficultyViewController2.swift */,
 				8CB67FE4209B7740004606AF /* PlayerNameViewController1.swift */,
@@ -272,9 +284,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CB67FE5209B7740004606AF /* PlayerNameViewController1.swift in Sources */,
+				8CD5FEA220A211B900D60F00 /* SecondQuestionViewController.swift in Sources */,
+				8CD5FEA420A211D800D60F00 /* ThirdQuestionViewController.swift in Sources */,
+				8CD5FEA020A2107D00D60F00 /* FirstQuestionViewController.swift in Sources */,
 				8C4E6BB82097857400F82959 /* ViewController.swift in Sources */,
 				8CB67FE9209B77F8004606AF /* PlayerNamesViewController2.swift in Sources */,
 				8C1A3098209A2C9200608B30 /* DifficultyViewController.swift in Sources */,
+				8C7B7DED209CCDE0008458B9 /* GameBoardViewController.swift in Sources */,
 				8CB67FE7209B77E9004606AF /* DifficultyViewController2.swift in Sources */,
 				8C4E6BB62097857400F82959 /* AppDelegate.swift in Sources */,
 			);
