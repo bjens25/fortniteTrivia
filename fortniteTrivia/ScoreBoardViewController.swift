@@ -1,14 +1,14 @@
 //
-//  ThirdQuestionViewController.swift
+//  ScoreBoardViewController.swift
 //  fortniteTrivia
 //
-//  Created by ios5 on 5/8/18.
+//  Created by ios5 on 5/9/18.
 //  Copyright © 2018 ios5. All rights reserved.
 //
 
 import UIKit
 
-class ThirdQuestionViewController: UIViewController {
+class ScoreBoardViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
