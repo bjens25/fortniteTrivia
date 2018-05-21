@@ -17,6 +17,6 @@ var test = ""
     var vBucksAnswer = ["1000","950","Save the World","save the world","Save The World","Save the world","Save The world","100","V-Bucks","v-bucks","V-bucks","v-Bucks"]
     override func viewDidLoad() {
         super.viewDidLoad()
-        var battleAnswer = ["Pump Shotgun","Tactical Shotgun","Suppresed SMG","Tactical SMG","Pistol","Silenced Pistol","pump Shotgun","tactical Shotgun","suppresed SMG","tactical SMG","pistol","silenced Pistol","Pump shotgun","Tactical shotgun","Suppresed smg","Tactical smg","Pistol","Silenced pistol","semi","Semi","bolt","Bolt","25","twentyfive","Twenty-Five","75","seventyfive","Seventy-Five","Seventy-five"]
+        var battleAnswer = ["Pump Shotgun","Tactical Shotgun","Suppresed SMG","Tactical SMG","Pistol","Silenced Pistol","pump Shotgun","tactical Shotgun","suppresed SMG","tactical SMG","pistol","silenced Pistol","Pump shotgun","Tactical shotgun","Suppresed smg","Tactical smg","Pistol","Silenced pistol","semi","Semi","bolt","Bolt","25","twentyfive","  Twenty-Five","75","seventyfive","Seventy-Five","Seventy-five"]
     }
 }
